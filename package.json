@@ -1,0 +1,22 @@
+{
+  "name": "turn-function-calling",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Luis Otavio",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.10",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1"
+  }
+}
